@@ -6,7 +6,6 @@ font-family: 'Work Sans', sans-serif;*/
 	height: auto;								/* alto */
 	margin: auto;
 	position: relative;
-	background: LightBlue;
 }
 
 /* Etiquetas	*/
@@ -19,30 +18,37 @@ body{											/* imagen de fondo	*/
 
 h1{												/* título primario	*/
 	font-family: 'Eczar', serif;				/* tipo de letra */
-	margin-left: 10px;							/* márgenes */
-	margin-bottom: 1px;
+	/*margin-top: 10px;	*/						/* margen superior */
+	/*margin-bottom: 1px;*/						/* margen inferior */
 	font-size: 50px;							/* tamaño */	
 	text-align: center;							/* alineación */
+	line-height: 50px;							/* interlineado */
+	padding-top: 20px;							/* anchura de zona de relleno */
 }
 
 h2{
 	font-family: 'Work Sans', sans-serif;
-	margin-left: 10px;
+	color:blue;									/* color de letra */
+	margin-left: 20px;
 	margin-top: 1px;
+	margin-bottom: 40px;
 	font-size: 20px;
 	text-align: left;
 }
 
 header{								/* encabezado */
-	width: 1000px;
-	height: 200px;
-	background: #F2B80D;
+	width: 1000px;					/* tamaño */
+	height: 200px;					/* alto */
+	background: #F2B80D;			/* color de fondo */
+	border-radius: 10px;			/* bordes redondeados */
 }
 
 nav{								/* menú de navegación */
 	width: 1000px;
-	height: 60px;
+	height: 50px;
 	background: #B3B3B3;
+	border-radius: 10px;
+	margin-top: 10px;
 }
 
 ul{									/* espacio de las listas del nav */
@@ -52,11 +58,11 @@ ul{									/* espacio de las listas del nav */
 
 li{									/* listas de enlaces del nav */
 	float: left;
-	list-style-type: none;
+	list-style-type: none;			/* acomodar horizontal */
 	padding: 10px;
 	/* background: #333333;
 	margin: 3px;
-	border-radius: 10px; */
+	border-radius: 10px; */	
 }
 
 /* Clases */
