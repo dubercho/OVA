@@ -1,22 +1,22 @@
 /*font-family: 'Eczar', serif;
 font-family: 'Work Sans', sans-serif;*/
 
-#contenidos{									/* */
-	width: 1000px;								/* tamaño */
-	height: auto;								/* alto */
-	margin: auto;
+#contenidos{			/* */
+	width: 980px;		/* ancho */
+	height: auto;		/* alto */
+	margin: 15px auto;
+	text-align: left;
 	position: relative;
 }
 
 /* Etiquetas	*/
 
 body{											/* imagen de fondo	*/
-	background-image: url(../img/unad2.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	text-align: center;
+	background:#006680;
 }
 
-h1{												/* título primario	*/
+h1{			/* título primario	*/
 	font-family: 'Eczar', serif;				/* tipo de letra */
 	/*margin-top: 10px;	*/						/* margen superior */
 	/*margin-bottom: 1px;*/						/* margen inferior */
@@ -28,41 +28,74 @@ h1{												/* título primario	*/
 
 h2{
 	font-family: 'Work Sans', sans-serif;
-	color:blue;									/* color de letra */
+	color:blue;				/* color de letra */
 	margin-left: 20px;
-	margin-top: 1px;
-	margin-bottom: 40px;
 	font-size: 20px;
 	text-align: left;
 }
 
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+	display: block;
+}
+
 header{								/* encabezado */
-	width: 1000px;					/* tamaño */
-	height: 200px;					/* alto */
 	background: #F2B80D;			/* color de fondo */
 	border-radius: 10px;			/* bordes redondeados */
+	padding: 20px;
 }
 
 nav{								/* menú de navegación */
-	width: 1000px;
 	height: 50px;
-	background: #B3B3B3;
+	background: #808080;
 	border-radius: 10px;
 	margin-top: 10px;
+	padding: 5px 15px;
 }
 
 ul{									/* espacio de las listas del nav */
 	margin: auto;
 	padding-top: 4px;
+
 }
 
 li{									/* listas de enlaces del nav */
 	float: left;
 	list-style-type: none;			/* acomodar horizontal */
 	padding: 10px;
+	font-family: 'Work Sans', sans-serif;
 	/* background: #333333;
 	margin: 3px;
 	border-radius: 10px; */	
+}
+
+section{
+	float: left;
+	width: 660px;
+	margin: 20px;
+	background: #CCCCCC;
+}
+
+aside{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: #CCCCCC;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}
+
+article{
+	background: #FFFBCC;
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15px;
 }
 
 /* Clases */
