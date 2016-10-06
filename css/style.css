@@ -98,6 +98,7 @@ article{
 	margin-bottom: 15px;
 }
 
+
 /* Clases */
 
 .ancho_menu_home{width: 900px;} 			/* seleccionada desde las listas de enlaces*/
@@ -109,3 +110,8 @@ article{
 .menu:visited{color: white; text-decoration: none;} 	/* cuando han sido usadas */
 .menu:hover{color: black; text-decoration: none;} 		/* cuando se pasa el cursor sobre ellas */
 .menu:active{color: red; text-decoration: none;} 		/* cuando se les pincha */
+
+.pie:link{color: #ff5900; text-decoration: none;} 		/* propias */
+.pie:visited{color: #ff5900; text-decoration: none;} 	/* cuando han sido usadas */
+.pie:hover{color: black; text-decoration: none;} 		/* cuando se pasa el cursor sobre ellas */
+.pie:active{color: yellow; text-decoration: none;}
